@@ -1,0 +1,56 @@
+.container {
+    width: 90%;
+    clear: both;
+  }
+  body
+  {
+    margin:0;
+    padding:0;
+    background-color: rgb(162, 214, 218);
+
+}
+.form-div{
+    margin:5% auto;
+    border-top:15% groove #0e6185;
+    border-bottom :15% groove #0e6185;
+}
+ .form-div h1{
+   font-size: 2em;
+   color: #0e6185;
+   margin: 2% 0;
+   font-weight: 700;
+ }
+ .form-div label
+ {
+   font-size: 1em;
+   color :#010101;
+   font-weight: 500;
+   margin: 2% 0;
+ }
+
+ .form-div input[type="text"],
+ .form-div input[type="Email"],
+ .form-div input[type="Password"]
+ 
+ {  
+ -webkit-appearence:none !important;
+ border: none;
+ border-bottom: 4px solid #017fb5 ;
+ }
+ .form-div input[type="text"]:focus,
+ .form-div input[type="Email"]:focus,
+ .form-div input[type="Password"]:focus
+ {
+   box-shadow:none;
+   border-bottom-color : violet;
+ } 
+ .form-div input[type="submit"]{
+   margin:2% 0;
+   font-size:1.5em;
+   font-weight:660;
+
+ }
+ .aruntextbox{
+   float: right;
+   width: 60%;
+ }
